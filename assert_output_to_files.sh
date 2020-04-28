@@ -3,4 +3,4 @@ function assert_output_to_files() {
   read -d '' input
   export input
   eval "$(source ${current}/src/run.sh)"
-}#!/bin/sh
+}
